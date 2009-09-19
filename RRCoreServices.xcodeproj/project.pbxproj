@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78F366EE1064B8D8004B57FB /* NSString+RRCoreServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F366EA1064B8D8004B57FB /* NSString+RRCoreServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F366EF1064B8D8004B57FB /* NSString+RRCoreServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F366EB1064B8D8004B57FB /* NSString+RRCoreServices.m */; };
+		78F366F01064B8D8004B57FB /* NSURL+RRCoreServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F366EC1064B8D8004B57FB /* NSURL+RRCoreServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F366F11064B8D8004B57FB /* NSURL+RRCoreServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F366ED1064B8D8004B57FB /* NSURL+RRCoreServices.m */; };
+		78F366F31064B8E2004B57FB /* RRCoreServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F366F21064B8E2004B57FB /* RRCoreServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -17,6 +22,11 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* RRCoreServices_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRCoreServices_Prefix.pch; sourceTree = "<group>"; };
+		78F366EA1064B8D8004B57FB /* NSString+RRCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RRCoreServices.h"; sourceTree = "<group>"; };
+		78F366EB1064B8D8004B57FB /* NSString+RRCoreServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RRCoreServices.m"; sourceTree = "<group>"; };
+		78F366EC1064B8D8004B57FB /* NSURL+RRCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RRCoreServices.h"; sourceTree = "<group>"; };
+		78F366ED1064B8D8004B57FB /* NSURL+RRCoreServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RRCoreServices.m"; sourceTree = "<group>"; };
+		78F366F21064B8E2004B57FB /* RRCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRCoreServices.h; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* RRCoreServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRCoreServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -75,6 +85,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				78F366EA1064B8D8004B57FB /* NSString+RRCoreServices.h */,
+				78F366EB1064B8D8004B57FB /* NSString+RRCoreServices.m */,
+				78F366EC1064B8D8004B57FB /* NSURL+RRCoreServices.h */,
+				78F366ED1064B8D8004B57FB /* NSURL+RRCoreServices.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -100,6 +114,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				78F366F21064B8E2004B57FB /* RRCoreServices.h */,
 				32DBCF5E0370ADEE00C91783 /* RRCoreServices_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -112,6 +127,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F366EE1064B8D8004B57FB /* NSString+RRCoreServices.h in Headers */,
+				78F366F01064B8D8004B57FB /* NSURL+RRCoreServices.h in Headers */,
+				78F366F31064B8E2004B57FB /* RRCoreServices.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +189,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F366EF1064B8D8004B57FB /* NSString+RRCoreServices.m in Sources */,
+				78F366F11064B8D8004B57FB /* NSURL+RRCoreServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
