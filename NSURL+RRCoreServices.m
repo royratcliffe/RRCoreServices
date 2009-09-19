@@ -1,17 +1,9 @@
-// $Id: NSURL+RRCoreServices.m,v 1.2 2008/10/30 18:10:31 royratcliffe Exp $
+// NSURL+RRCoreServices.m
 //
-// Copyright © 2008, Roy Ratcliffe, Lancaster, United Kingdom
+// Copyright © 2008, 2009, Roy Ratcliffe, Lancaster, United Kingdom
 // All rights reserved
 //
 //------------------------------------------------------------------------------
-//
-// $Log: NSURL+RRCoreServices.m,v $
-// Revision 1.2  2008/10/30 18:10:31  royratcliffe
-// Wrapped long comment lines
-//
-// Revision 1.1  2008/07/11 14:52:29  royratcliffe
-// URL extensions for Core Services, initial revision
-//
 
 #import "NSURL+RRCoreServices.h"
 

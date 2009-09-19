@@ -1,14 +1,9 @@
-// $Id: NSString+RRCoreServices.h,v 1.1 2008/10/30 18:09:59 royratcliffe Exp $
+// NSString+RRCoreServices.h
 //
-// Copyright © 2008, Roy Ratcliffe, Lancaster, United Kingdom
+// Copyright © 2008, 2009, Roy Ratcliffe, Lancaster, United Kingdom
 // All rights reserved
 //
 //------------------------------------------------------------------------------
-//
-// $Log: NSString+RRCoreServices.h,v $
-// Revision 1.1  2008/10/30 18:09:59  royratcliffe
-// NSString extensions using Core Services, initial revision
-//
 
 #import <CoreServices/CoreServices.h>
 
